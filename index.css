@@ -13,16 +13,16 @@ html,body{
     min-height:100% ;
 }
 .background--image2{
-    background-image: url(./images/bg2.jpg);
+    background-image: url(./images/bg1.jpg);
     height: 80%;
 }
 .background--image3{
-    background-image: url(./images/bg3.jpg);
+    background-image: url(./images/bg2.jpg);
     height: 80%;
 }
 
 .background--image4{
-    background-image: url(./images/bg4.jpg);
+    background-image: url(./images/bg3.jpg);
     min-height: 80%;
 }
 
@@ -123,20 +123,16 @@ html,body{
         padding: 1.5rem 2rem;
     }
     
-.heading-container__logo{
-
-    width: 50%;
-}
-    
+    .heading-container__logo {
+        width: 50%;
+    }   
 }
 
 @media(max-width:500px){
     .background--image1,
-.background--image2,
-.background--image3,
-.background--image4{
-
+    .background--image2,
+    .background--image3,
+    .background--image4 {
     background-attachment: scroll;
-
-}
+    }
 }
